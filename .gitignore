@@ -3,5 +3,5 @@
 /test2
 /test3
 
-.output.csv
-.confusionMatrix.png
+output.csv
+confusionMatrix.png
