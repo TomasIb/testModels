@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sn
 from sklearn.metrics import confusion_matrix
 
-DATASET_ROUTE ='./test2/test-modelo2.csv'
-MODEL ='./test2/best_modelo2.sav'
+DATASET_ROUTE ='./test3/test-modelo3.csv'
+MODEL ='./test3/best_modelo3.sav'
 
 
 
@@ -20,7 +20,6 @@ def generateConfusionMatrix(cm):
     plt.savefig('./confusionMatrix.png', dpi=300, facecolor='w', edgecolor='w',
                 orientation='portrait', papertype=None, format=None,
                 transparent=False, bbox_inches=None, pad_inches=0.1) 
-
 
 def run():
     sniffer = csv.Sniffer()
